@@ -1,24 +1,22 @@
 <template>
   <v-app>
-    <appbar/>
+    <appbar />
 
-    <drawer/>
+    <drawer />
 
     <v-main>
-
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script>
-
 import Appbar from "./components/layout/appbar";
 import Drawer from "./components/layout/drawer";
+
 export default {
   name: "App",
-  components: {Drawer, Appbar},
-  data: () => ({
-
-  }),
+  components: { Drawer, Appbar },
+  data: () => ({}),
 };
 </script>

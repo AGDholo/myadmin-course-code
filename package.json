@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.7",
     "vue": "^2.6.11",
+    "vue-router": "^3.5.2",
     "vuetify": "^2.4.0"
   },
   "devDependencies": {
