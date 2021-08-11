@@ -5,7 +5,9 @@
     <drawer />
 
     <v-main>
-      <router-view />
+      <div class="ma-6">
+        <router-view />
+      </div>
     </v-main>
   </v-app>
 </template>
